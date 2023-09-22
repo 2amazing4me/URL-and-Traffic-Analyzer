@@ -1,58 +1,72 @@
-##### Copyright 2020 Darius Neatu (neatudarius@gmail.com)
-# README check
+## Baldovin Razvan-Mihai-Marian 312CA
 
-## View as webpage
-```
-sudo pip3 install grip
-grip  README.md
-# open http://localhost:6419/
-```
+# Overview
 
-## Description
-This is the checker used to automatically grade homeworks at PC.
+The program does a quick simple check on links and traffic in an attempt to
+determine with an accuracy as high as possible, which are malicious and which
+are benign.
 
-The name of the checker is `check`. It is written in `Python 3.6`.
+================================================================================
 
+# Files
 
-## What does it do?
-It will do the multiples steps.
+The program is split in 4 .c files with a .h header file for each .c apart from
+'my_av.c' which contains the main function. It also uses some bonus resources to
+aid in finding malicious links.
 
-All steps marked with `[STOP]` are required. If one failed the checker will stop.
-All steps marked with `[OPTIONAL]` are optional and can be disabled from config.
+Source files are named accordingly to represent exactly what their job is:
+    - 'my_av.c' - calls the functions to check links and traffic (the antivirus)
+    - 'url_check.c' - all the functions for checking if an URL is legit
+    - 'traffic_check.c' - all the function for checking if traffic is legit
+    - 'file_manager.c' - handles opening and reading files
 
-1.  `deps`: Check if all dependencies are installed on local system in order to build/run/grade the homerwork.
+In resources we have the following files:
+    - 'tld_list.txt' - a comprehensive list of all legitimate top-level domains
 
-2. `build`: Build homework.
-	2.1. [STOP] `Makefile`: Check if `Makefile` exists.
-	2.2. [STOP] `make`:  Run `make build` in order to build all binaries.
-	2.3. [OPT]`warnings`:  If warnings are detected, a penalty to final grade is applied.
+================================================================================
 
-`Note`: This stage is using an explained `legend`:
-	1. `UPS`: Ups, program crashed
-		e.g null pointer dereference, negative or to big array/matrix indices
-	2. `TLE`: Time Limit Exceed
-		e.g. infinit loop or too slow
-	3. `MLE`: Memory Limit Exceed
-		e.g. too much allocated memory (in total or for some segments)
-	3. `MEM_UPS`: Memory leaks or errors
-		e.g. invalid memory access, unfreed dynamic-allocated arrays
-	4. `WA`: Wrong Answer (wrong or partial output)
-		e.g. output is missing or has other value
-	5. `OK`: Everything is OK.
+# Heuristics
 
-## Installation
+## URLs
 
-The `install.sh` script can be used to install all dependencies for `check`.
+### Dictionary (check_dictionary)
 
-Note: Please inspect  the script to see which are the requirements.
+We check if the domain is from a dictionary of known malware links
 
-```
-sudo ./install.sh
-```
+### Extension (check_extension)
 
-## Usage
-- run entire homework
+We check if the link opens a file whose extension is commonly malicious in links
 
-```
-./check
-```
+### Number proportion in domain (check_number_proportion)
+
+If the domain is made-up of more than 10% digits, the link is very likely to be
+malicious
+
+### subdomain (check_subdomain)
+
+Some links may contain a suspicious subdomains (instead of 'www', something like
+'www-i2')
+
+### TLDs (check_tld)
+
+Malware links might sometime contain a non-registered top-level domain or a
+suspicious top-level domain, therefore we check if it is a legitimate TLD
+
+### Suspicious keyword
+
+Checks if the links contain words commonly associated with malicious links
+
+## Traffic
+
+### Response ip
+
+If the adress is masked (255.255.255.255) it is generally safe
+
+### Traffic flow & flow packets average
+
+Usually traffic flow over 1 second combined with a high flow packets average it 
+is most likely to be a brute force attack
+
+### Flow flags
+
+If all flags are 0, that is most of the time a sign of crypto-mining traffic

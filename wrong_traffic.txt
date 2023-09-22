@@ -1,0 +1,440 @@
+traffic 12:
+ origin ip: 114.142.171.46
+ origin port: 11811
+ response ip: 184.0.48.169
+ response port: 443
+ flow duration: 0 days 00:00:37.819195
+ fwd packets total: 13
+ bwd packets tot: 20
+ fwd header size tot: 460
+ bwd header size tot: 660
+ flow FIN flag count: 2
+ flow SYN flag count: 2
+ flow ACK flag count: 32
+ fwd packets payload avg: 53.384615
+ bwd packets payload avg: 799.8
+ fwd iat avg 3157399.992148
+ bwd iat avg: 1990481.163326
+ flow packets payload avg: 505.757576
+	ref = 0, output = 1
+
+traffic 111:
+ origin ip: 114.79.46.250
+ origin port: 52346
+ response ip: 184.0.48.169
+ response port: 443
+ flow duration: 0 days 00:00:31.587355
+ fwd packets total: 24
+ bwd packets tot: 19
+ fwd header size tot: 836
+ bwd header size tot: 616
+ flow FIN flag count: 2
+ flow SYN flag count: 2
+ flow ACK flag count: 42
+ fwd packets payload avg: 33.25
+ bwd packets payload avg: 1151.526316
+ fwd iat avg 1373363.256454
+ bwd iat avg: 1754854.162534
+ flow packets payload avg: 527.372093
+	ref = 0, output = 1
+
+traffic 136:
+ origin ip: 184.0.48.132
+ origin port: 48959
+ response ip: 239.255.255.250
+ response port: 1900
+ flow duration: 0 days 00:00:00.000266
+ fwd packets total: 12
+ bwd packets tot: 0
+ fwd header size tot: 96
+ bwd header size tot: 0
+ flow FIN flag count: 0
+ flow SYN flag count: 0
+ flow ACK flag count: 0
+ fwd packets payload avg: 392.166667
+ bwd packets payload avg: 0.0
+ fwd iat avg 24.188649
+ bwd iat avg: 0.0
+ flow packets payload avg: 392.166667
+	ref = 0, output = 1
+
+traffic 201:
+ origin ip: fe80::5f4b:7356:fe6a:f80b
+ origin port: 143
+ response ip: ff02::16
+ response port: 0
+ flow duration: 0 days 00:00:00.783954
+ fwd packets total: 4
+ bwd packets tot: 0
+ fwd header size tot: 32
+ bwd header size tot: 0
+ flow FIN flag count: 0
+ flow SYN flag count: 0
+ flow ACK flag count: 0
+ fwd packets payload avg: 28.0
+ bwd packets payload avg: 0.0
+ fwd iat avg 261317.968369
+ bwd iat avg: 0.0
+ flow packets payload avg: 28.0
+	ref = 0, output = 1
+
+traffic 247:
+ origin ip: 103.210.35.80
+ origin port: 62222
+ response ip: 184.0.48.169
+ response port: 443
+ flow duration: 0 days 00:00:15.258407
+ fwd packets total: 18
+ bwd packets tot: 17
+ fwd header size tot: 584
+ bwd header size tot: 552
+ flow FIN flag count: 2
+ flow SYN flag count: 2
+ flow ACK flag count: 34
+ fwd packets payload avg: 44.333333
+ bwd packets payload avg: 1191.705882
+ fwd iat avg 897668.123245
+ bwd iat avg: 953647.628427
+ flow packets payload avg: 601.628571
+	ref = 0, output = 1
+
+traffic 342:
+ origin ip: 103.156.113.162
+ origin port: 48075
+ response ip: 1.0.48.103
+ response port: 443
+ flow duration: 0 days 00:00:00.981775
+ fwd packets total: 68
+ bwd packets tot: 62
+ fwd header size tot: 2196
+ bwd header size tot: 1992
+ flow FIN flag count: 2
+ flow SYN flag count: 2
+ flow ACK flag count: 127
+ fwd packets payload avg: 29.970588
+ bwd packets payload avg: 1912.967742
+ fwd iat avg 31126.940428
+ bwd iat avg: 32486.212058
+ flow packets payload avg: 928.015385
+	ref = 1, output = 0
+
+traffic 375:
+ origin ip: fe80::5f4b:7356:fe6a:f80b
+ origin port: 143
+ response ip: ff02::16
+ response port: 0
+ flow duration: 0 days 00:00:00.211046
+ fwd packets total: 2
+ bwd packets tot: 0
+ fwd header size tot: 16
+ bwd header size tot: 0
+ flow FIN flag count: 0
+ flow SYN flag count: 0
+ flow ACK flag count: 0
+ fwd packets payload avg: 28.0
+ bwd packets payload avg: 0.0
+ fwd iat avg 211045.980453
+ bwd iat avg: 0.0
+ flow packets payload avg: 28.0
+	ref = 0, output = 1
+
+traffic 409:
+ origin ip: 180.254.82.91
+ origin port: 42928
+ response ip: 184.0.48.169
+ response port: 443
+ flow duration: 0 days 00:00:08.780834
+ fwd packets total: 23
+ bwd packets tot: 13
+ fwd header size tot: 780
+ bwd header size tot: 424
+ flow FIN flag count: 2
+ flow SYN flag count: 2
+ flow ACK flag count: 35
+ fwd packets payload avg: 34.782609
+ bwd packets payload avg: 1461.769231
+ fwd iat avg 399349.635298
+ bwd iat avg: 731732.666492
+ flow packets payload avg: 550.083333
+	ref = 0, output = 1
+
+traffic 432:
+ origin ip: 103.156.113.162
+ origin port: 63209
+ response ip: 14.0.48.169
+ response port: 443
+ flow duration: 0 days 00:00:00.981864
+ fwd packets total: 49
+ bwd packets tot: 47
+ fwd header size tot: 1612
+ bwd header size tot: 1512
+ flow FIN flag count: 2
+ flow SYN flag count: 2
+ flow ACK flag count: 95
+ fwd packets payload avg: 39.040816
+ bwd packets payload avg: 1174.255319
+ fwd iat avg 43435.394764
+ bwd iat avg: 43083.025062
+ flow packets payload avg: 594.822917
+	ref = 1, output = 0
+
+traffic 479:
+ origin ip: 103.156.113.162
+ origin port: 12281
+ response ip: 1.0.48.103
+ response port: 443
+ flow duration: 0 days 00:00:00.153380
+ fwd packets total: 59
+ bwd packets tot: 63
+ fwd header size tot: 1872
+ bwd header size tot: 2024
+ flow FIN flag count: 2
+ flow SYN flag count: 2
+ flow ACK flag count: 118
+ fwd packets payload avg: 33.966102
+ bwd packets payload avg: 1883.301587
+ fwd iat avg 37127.239951
+ bwd iat avg: 33107.369177
+ flow packets payload avg: 988.95082
+	ref = 1, output = 0
+
+traffic 509:
+ origin ip: fe80::5f4b:7356:fe6a:f80b
+ origin port: 143
+ response ip: ff02::16
+ response port: 0
+ flow duration: 0 days 00:00:01.162997
+ fwd packets total: 2
+ bwd packets tot: 0
+ fwd header size tot: 16
+ bwd header size tot: 0
+ flow FIN flag count: 0
+ flow SYN flag count: 0
+ flow ACK flag count: 0
+ fwd packets payload avg: 28.0
+ bwd packets payload avg: 0.0
+ fwd iat avg 162997.00737
+ bwd iat avg: 0.0
+ flow packets payload avg: 28.0
+	ref = 0, output = 1
+
+traffic 560:
+ origin ip: 103.210.35.122
+ origin port: 56962
+ response ip: 184.0.48.169
+ response port: 443
+ flow duration: 0 days 00:00:11.197746
+ fwd packets total: 28
+ bwd packets tot: 19
+ fwd header size tot: 904
+ bwd header size tot: 616
+ flow FIN flag count: 2
+ flow SYN flag count: 2
+ flow ACK flag count: 46
+ fwd packets payload avg: 28.571429
+ bwd packets payload avg: 1339.947368
+ fwd iat avg 417200.671302
+ bwd iat avg: 622093.452348
+ flow packets payload avg: 558.702128
+	ref = 0, output = 1
+
+traffic 634:
+ origin ip: 103.210.35.62
+ origin port: 35968
+ response ip: 184.0.48.169
+ response port: 443
+ flow duration: 0 days 00:00:15.675349
+ fwd packets total: 22
+ bwd packets tot: 14
+ fwd header size tot: 712
+ bwd header size tot: 456
+ flow FIN flag count: 2
+ flow SYN flag count: 2
+ flow ACK flag count: 35
+ fwd packets payload avg: 36.272727
+ bwd packets payload avg: 2079.642857
+ fwd iat avg 747101.295562
+ bwd iat avg: 1205789.841138
+ flow packets payload avg: 830.916667
+	ref = 0, output = 1
+
+traffic 645:
+ origin ip: 203.30.236.175
+ origin port: 58158
+ response ip: 184.0.48.169
+ response port: 443
+ flow duration: 0 days 00:00:17.305113
+ fwd packets total: 17
+ bwd packets tot: 16
+ fwd header size tot: 552
+ bwd header size tot: 520
+ flow FIN flag count: 2
+ flow SYN flag count: 2
+ flow ACK flag count: 32
+ fwd packets payload avg: 46.941176
+ bwd packets payload avg: 1221.4375
+ fwd iat avg 1081805.810332
+ bwd iat avg: 1153668.610255
+ flow packets payload avg: 616.393939
+	ref = 0, output = 1
+
+traffic 740:
+ origin ip: 103.210.35.46
+ origin port: 44708
+ response ip: 184.0.48.169
+ response port: 443
+ flow duration: 0 days 00:00:07.675455
+ fwd packets total: 17
+ bwd packets tot: 15
+ fwd header size tot: 552
+ bwd header size tot: 488
+ flow FIN flag count: 2
+ flow SYN flag count: 2
+ flow ACK flag count: 31
+ fwd packets payload avg: 47.058824
+ bwd packets payload avg: 1068.133333
+ fwd iat avg 480136.811733
+ bwd iat avg: 548242.858478
+ flow packets payload avg: 525.6875
+	ref = 0, output = 1
+
+traffic 775:
+ origin ip: 103.210.35.118
+ origin port: 47591
+ response ip: 184.0.48.169
+ response port: 443
+ flow duration: 0 days 00:00:07.181794
+ fwd packets total: 28
+ bwd packets tot: 19
+ fwd header size tot: 904
+ bwd header size tot: 616
+ flow FIN flag count: 2
+ flow SYN flag count: 2
+ flow ACK flag count: 46
+ fwd packets payload avg: 28.5
+ bwd packets payload avg: 1346.368421
+ fwd iat avg 266320.555298
+ bwd iat avg: 398986.22036
+ flow packets payload avg: 561.255319
+	ref = 0, output = 1
+
+traffic 797:
+ origin ip: 180.254.82.91
+ origin port: 42929
+ response ip: 184.0.48.169
+ response port: 443
+ flow duration: 0 days 00:00:08.776227
+ fwd packets total: 22
+ bwd packets tot: 12
+ fwd header size tot: 760
+ bwd header size tot: 392
+ flow FIN flag count: 2
+ flow SYN flag count: 2
+ flow ACK flag count: 33
+ fwd packets payload avg: 36.363636
+ bwd packets payload avg: 1374.75
+ fwd iat avg 418145.088922
+ bwd iat avg: 797835.631804
+ flow packets payload avg: 508.735294
+	ref = 0, output = 1
+
+traffic 805:
+ origin ip: fe80::2850:75c:4dcf:a9c2
+ origin port: 143
+ response ip: ff02::16
+ response port: 0
+ flow duration: 0 days 00:00:00.328935
+ fwd packets total: 4
+ bwd packets tot: 0
+ fwd header size tot: 32
+ bwd header size tot: 0
+ flow FIN flag count: 0
+ flow SYN flag count: 0
+ flow ACK flag count: 0
+ fwd packets payload avg: 28.0
+ bwd packets payload avg: 0.0
+ fwd iat avg 109644.969304
+ bwd iat avg: 0.0
+ flow packets payload avg: 28.0
+	ref = 0, output = 1
+
+traffic 813:
+ origin ip: 103.210.35.85
+ origin port: 58714
+ response ip: 184.0.48.169
+ response port: 443
+ flow duration: 0 days 00:00:17.398973
+ fwd packets total: 19
+ bwd packets tot: 19
+ fwd header size tot: 616
+ bwd header size tot: 628
+ flow FIN flag count: 2
+ flow SYN flag count: 2
+ flow ACK flag count: 37
+ fwd packets payload avg: 53.631579
+ bwd packets payload avg: 1186.052632
+ fwd iat avg 970045.222176
+ bwd iat avg: 966606.77592
+ flow packets payload avg: 619.842105
+	ref = 0, output = 1
+
+traffic 914:
+ origin ip: 103.210.35.128
+ origin port: 46634
+ response ip: 184.0.48.169
+ response port: 443
+ flow duration: 0 days 00:00:15.397722
+ fwd packets total: 16
+ bwd packets tot: 11
+ fwd header size tot: 532
+ bwd header size tot: 360
+ flow FIN flag count: 2
+ flow SYN flag count: 2
+ flow ACK flag count: 26
+ fwd packets payload avg: 30.4375
+ bwd packets payload avg: 1205.454545
+ fwd iat avg 1026882.664363
+ bwd iat avg: 1539767.313004
+ flow packets payload avg: 509.148148
+	ref = 0, output = 1
+
+traffic 920:
+ origin ip: 184.0.48.150
+ origin port: 51535
+ response ip: 8.8.8.8
+ response port: 53
+ flow duration: 0 days 00:00:00.023699
+ fwd packets total: 1
+ bwd packets tot: 1
+ fwd header size tot: 8
+ bwd header size tot: 8
+ flow FIN flag count: 0
+ flow SYN flag count: 0
+ flow ACK flag count: 0
+ fwd packets payload avg: 43.0
+ bwd packets payload avg: 107.0
+ fwd iat avg 0.0
+ bwd iat avg: 0.0
+ flow packets payload avg: 75.0
+	ref = 0, output = 1
+
+traffic 942:
+ origin ip: 184.0.48.150
+ origin port: 36421
+ response ip: 36.91.114.86
+ response port: 123
+ flow duration: 0 days 00:00:00.045691
+ fwd packets total: 1
+ bwd packets tot: 1
+ fwd header size tot: 8
+ bwd header size tot: 8
+ flow FIN flag count: 0
+ flow SYN flag count: 0
+ flow ACK flag count: 0
+ fwd packets payload avg: 48.0
+ bwd packets payload avg: 48.0
+ fwd iat avg 0.0
+ bwd iat avg: 0.0
+ flow packets payload avg: 48.0
+	ref = 0, output = 1
+
